@@ -1,0 +1,131 @@
+body {
+  background-color: #00040c;
+  font-family: "Moon Light";
+  color: #868c92;
+}
+.groot {
+  min-height: 100vh;
+  background-image: url("hp.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@font-face {
+  font-family: "Moon Light";
+  src: url("Moon Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Moon Bold";
+  src: url("Moon Bold.otf") format("opentype");
+}
+
+.text {
+  font-size: 0.9rem;
+}
+
+.intext {
+  /* color: #f7c08a; */
+  background-color: #181818;
+}
+.gra {
+  background-image: -webkit-linear-gradient(#e3e3e3, #5d6874);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Moon Bold";
+}
+.grah {
+  color: #868c92;
+  font-family: "Moon Light";
+}
+.im {
+  border-radius: 50%;
+}
+.card {
+  border-radius: 100px;
+  padding: 30px;
+}
+.groot-tagline {
+  font-size: 2.5rem;
+}
+.navbar-custom {
+  background-color: #00040c;
+}
+.btn-custom {
+  color: #868c92;
+  background-color: #00040c;
+  border-radius: 10px;
+}
+.nav-text {
+  color: #868c92;
+}
+.active > .nav-link {
+  color: #fdf2e7;
+}
+.btn-custom:hover {
+  color: #222;
+  background-color: #868c92;
+  transform: scale(1.2, 1.2);
+}
+.nav-text:hover {
+  color: #111111;
+  background-color: #868c92;
+  border-radius: 10px;
+}
+
+.intro-icon {
+  font-size: 15rem;
+  color: blueviolet;
+  margin: 0px auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#footer-links-container ul {
+  list-style-type: none;
+  padding-left: 0px !important;
+}
+
+#footer-links-container ul > :first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 1.5rem;
+  }
+  .groot-tagline {
+    font-size: 5rem;
+  }
+  .ch {
+    font-size: 2rem;
+  }
+  #footer-links-container ul {
+    padding-left: 30px !important;
+  }
+}
